@@ -2,10 +2,10 @@
 
 cwlVersion: v1.0
 class: CommandLineTool
-label: ada
+label: adg
 hints:
   DockerRequirement:
-    dockerPull: alahiff/mast-ada:4
+    dockerPull: alahiff/mast-adg:4
 requirements:
   EnvVarRequirement:
     envDef:
@@ -26,7 +26,7 @@ inputs:
     type: string
     inputBinding:
       position: 3
-  in_amc:
+  in_ada:
     type: int
     inputBinding:
       position: 4
